@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="735px" height="490px" viewBox="0 0 735 490" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Page 1</title>
+    <defs>
+        <linearGradient x1="100%" y1="27.7777778%" x2="0%" y2="72.2222222%" id="linearGradient-1">
+            <stop stop-color="#F4F4F4" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="735" height="490"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-3" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <use id="Rectangle" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        <text id="Loading" mask="url(#mask-3)" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="13.1" fill="#666666">
+            <tspan x="294.442676" y="251">LOADIN</tspan>
+            <tspan x="428.889844" y="251">G</tspan>
+        </text>
+    </g>
+</svg>

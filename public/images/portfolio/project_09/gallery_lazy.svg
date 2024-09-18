@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="270px" viewBox="0 0 350 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Page 1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Mask" fill="#524D40" x="0" y="0" width="350" height="270"></rect>
+        <text id="loading" font-family="ArialMT, Arial" font-size="14" font-weight="normal" letter-spacing="15" fill="#FFFFFF">
+            <tspan x="98.4931641" y="140">LOADIN</tspan>
+            <tspan x="240.617188" y="140">G</tspan>
+        </text>
+    </g>
+</svg>

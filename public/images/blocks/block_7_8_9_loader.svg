@@ -1,0 +1,15 @@
+<svg width="2228px" height="1300px" viewBox="0 0 2228 1300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="2228" height="1300"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Rectangle" fill="#C6C3C2" xlink:href="#path-1"></use>
+        <text id="LOADING" mask="url(#mask-2)" font-family="Arial-BoldMT, Arial" font-size="28" font-weight="bold" letter-spacing="46.6666667" fill="#717171">
+            <tspan x="909.448242" y="660">LOADIN</tspan>
+            <tspan x="1296.77246" y="660">G</tspan>
+        </text>
+    </g>
+</svg>

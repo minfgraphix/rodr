@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="1200px" viewBox="0 0 2000 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.600000,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#1C1C1C" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="2000" height="1200"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-Copy-3">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Rectangle-Copy" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+            <text id="Loading" mask="url(#mask-3)" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" letter-spacing="17.1428585" fill="#464646">
+                <tspan x="907.808589" y="606">LOADING</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

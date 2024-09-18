@@ -1,0 +1,65 @@
+
+/* Nova Demo Styles
+================================================== */
+
+	/* Page Fonts - You can customize from here: https://fonts.google.com/share?selection.family=Georama:wght@300;400;600;700%7CSTIX%20Two%20Text:wght@400;500;600;700 */
+	@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;400;600;700&amp;family=STIX+Two+Text:wght@400;500;600;700&amp;display=swap');
+	.font-main{font-family: 'Georama', sans-serif !important;}
+	.font-secondary{font-family: 'STIX Two Text', serif !important;}
+
+	/* Body Options */
+	body{ font-family: 'Georama', sans-serif; letter-spacing: 0px; font-weight: 300; }
+
+/* Nova demo styles
+================================================== */
+
+
+
+
+
+
+	/* Portfolio Styles */
+	/* Image animation */
+        .cbp-item .work-image{-webkit-transform:scale(1);transform:scale(1); -webkit-transition:transform 0.5s;transition:transform 0.5s;}
+        .cbp-item:hover .work-image{-webkit-transform:scale(1.03);transform:scale(1.03);}
+        /* Details animation */
+        .cbp-item .details{opacity:0;-webkit-transform:scale(1.04) perspective(1000px);transform:scale(1.04) perspective(1000px);-webkit-transition:all 0.5s;transition:all 0.5s;}
+        .cbp-item:hover .details{opacity:1;-webkit-transform:scale(1) perspective(1000px);transform:scale(1) perspective(1000px);}
+        /* Texts and line animations */
+        .cbp-item .details .title, .cbp-item .details .tag{opacity:0;-webkit-transform:translateY(15px);transform:translateY(15px);-webkit-transition:all 0.5s;transition:all 0.5s;}
+        .cbp-item:hover .details .title, .cbp-item:hover .details .tag{opacity:1;-webkit-transform:translateY(0px);transform:translateY(0px);}
+        .cbp-item:hover .details .tag{-webkit-transition-delay:0.1s;transition-delay:0.1s;}
+        .cbp-item .details .line{-webkit-transition:all 0.3s;transition:all 0.3s;}
+        .cbp-item:hover .details .line{width:70px!important;}
+
+
+
+
+
+
+
+
+
+   /* Creative team options - #team-02 and 03 */
+        /* Figure options - margin for absolute items on bottom */
+        .team-creative figure{ -webkit-transition:color 0.3s;transition:color 0.3s; }
+        /* Hover position for figcaption */
+        .team-creative figcaption{ position: relative; bottom: 0%; -webkit-transition:bottom 0.3s;transition:bottom 0.3s; }
+        .team-creative figure:hover figcaption{ bottom: 50%; }
+            @media only screen and (min-width:571px) and (max-width:992px) {.team-creative figure:hover figcaption{ bottom: 55%; }}
+        /* Opacity option for progress bars */
+        .team-creative figure .progress-bars{ opacity: 0; visibility: hidden; -webkit-transition-delay:0s;transition-delay:0s; }
+        .team-creative figure:hover .progress-bars{ opacity: 1; visibility: visible; -webkit-transition:opacity 0.3s, visibility 0.3s;transition:opacity 0.3s, visibility 0.3s; -webkit-transition-delay:0.2s;transition-delay:0.2s; }
+        /* Opacity option for image */
+        .team-creative figure > .employee-photo img{  opacity: 1;-webkit-transition:opacity 0.3s;transition:opacity 0.3s; }
+        .team-creative figure:hover > .employee-photo img{ opacity: .3; }
+        /* Socials Aniamtion */
+        .team-creative figure .socials a{opacity:0; -webkit-transform:translateY(15px);transform:translateY(15px); -webkit-transition:opacity 0.3s, transform 0.3s;transition:opacity 0.3s, transform 0.3s; -webkit-transition-delay:0s;transition-delay:0s;}
+        /* Icon delays */
+        .team-creative figure:hover .socials a{opacity:1; -webkit-transform:translateY(-20px);transform:translateY(-20px); -webkit-transition-delay:0.3s;transition-delay:0.3s;}
+        .team-creative figure:hover .socials li:nth-of-type(2) a{-webkit-transition-delay:0.35s;transition-delay:0.35s;}
+        .team-creative figure:hover .socials li:nth-of-type(3) a{-webkit-transition-delay:0.4s;transition-delay:0.4s;}
+        .team-creative figure:hover .socials li:nth-of-type(4) a{-webkit-transition-delay:0.45s;transition-delay:0.45s;}
+        .team-creative figure:hover .socials li:nth-of-type(5) a{-webkit-transition-delay:0.5s;transition-delay:0.5s;}
+        .team-creative figure:hover .socials li:nth-of-type(6) a{-webkit-transition-delay:0.55s;transition-delay:0.55s;}
+        .team-creative figure:hover .socials li:nth-of-type(7) a{-webkit-transition-delay:0.6s;transition-delay:0.6s;}

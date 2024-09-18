@@ -1,0 +1,35 @@
+
+<svg width="1530px" height="861px" viewBox="0 0 1530 861" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0.722110111%" y1="0.94418381%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D1D2D4" offset="0%"></stop>
+            <stop stop-color="#414143" offset="100%"></stop>
+            <stop stop-color="#414143" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1530" height="861"></rect>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-3" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <use id="Background" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        <text id="Text" mask="url(#mask-3)" font-family="Verdana" font-size="20" font-weight="normal" letter-spacing="40" fill="#FFFFFF">
+            <tspan x="602.433594" y="439">L ADIN</tspan>
+            <tspan x="913.058594" y="439">G</tspan>
+        </text>
+        <g id="loader2" mask="url(#mask-3)" stroke="#FFFFFF">
+            <g transform="translate(649.000000, 424.000000)">
+                <circle id="Oval" stroke-opacity="0.5" cx="8.5" cy="8.5" r="8.5"></circle>
+                <path d="M16 8c0-9.94-8.06-8-8-8">
+                    <animateTransform
+                    attributeName="transform"
+                    type="rotate"
+                    from="0 8 8"
+                    to="360 8 8"
+                    dur="1s"
+                    repeatCount="indefinite"/>
+                </path>
+            </g>
+        </g>
+    </g>
+</svg>
