@@ -41,7 +41,7 @@
 	.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true],
 	.twentytwenty-handle:active,
 	.underline-slide.underline-colored:before,.underline-slide.underline-colored:after{
-		background-color:#007A99 !important;
+		background-color:#de0703 !important;
 	}
 	/* bg-colored1 */
 	.bg-colored1,.bg-colored1-hover:hover,.bg-colored1-active.active,.bg-colored1-hover-trigger:hover .bg-colored1-hover-target{

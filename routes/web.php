@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.index');
 });
+Route::get('home', function () {
+    return view('pages.index');
+});
 Route::view('rodr2022', 'pages.rodr2022');
 Route::view('rodr2021', 'pages.rodr2021');
 Route::view('rodr2020', 'pages.rodr2020');

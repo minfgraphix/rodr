@@ -11,19 +11,19 @@
                 <div class="row align-items-center">
                     <!-- Column for left content -->
                     <div class="col d-flex">
-                        <p class="fs-13 black mr-15">Phone: <a href="tel:tel:+233 24 472 3229" class="white-hover slow">tel:+233 50 581 5623</a></p>
-                        <p class="fs-13 black mr-15">E-Mail: <a href="mailto:info@rhythmsondarunway.com" class="white-hover slow">info@rhythmsondarunway.com</a></p>
+                        <p class="fs-13 white mr-15">Phone: <a href="tel:tel:+233 24 472 3229" class="white-hover slow">tel:+233 50 581 5623</a></p>
+                        <p class="fs-13 white mr-15">E-Mail: <a href="mailto:info@rhythmsondarunway.com" class="white-hover slow">info@rhythmsondarunway.com</a></p>
                     </div>
                     <!-- Column for right content -->
                     <div class="col d-flex black justify-content-end">
-                        <a href="#" class="icon-sm bg-facebook-hover bl-1 b-soft-dark1"><i class="ti-linkedin"></i></a>
-                        <a href="#" class="icon-sm bg-twitter-hover bl-1 b-soft-dark1"><i class="ti-twitter"></i></a>
-                        <a href="#" class="icon-sm bg-linkedin-hover bl-1 b-soft-dark1"><i class="ti-youtube"></i></a>
+                        <a href="#" class="icon-sm bg-facebook-hover bl-1 b-soft-dark1 white "><i class="ti-linkedin"></i></a>
+                        <a href="#" class="icon-sm bg-twitter-hover bl-1 b-soft-dark1 white "><i class="ti-twitter"></i></a>
+                        <a href="#" class="icon-sm bg-linkedin-hover bl-1 b-soft-dark1 white "><i class="ti-youtube"></i></a>
                         <a href="https://www.instagram.com/rhythmsondarunway" class="icon-sm bg-linkedin-hover bl-1 br-1 b-soft-dark1"><i class="ti-instagram"></i></a>
                         {{-- <a href="https://www.tiktok.com/@eatdrinkmusicfestival?_t=8fK5pkYdIt3&_r=1" class="icon-sm bg-facebook-hover bl-1 b-soft-dark1">
                             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
                                 <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                <style>svg{fill:#00000000}</style>
+                                <style>svg{fill:#fffff}</style>
                                 <path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/>
                             </svg>
                         </a> --}}
@@ -55,15 +55,15 @@
                         <li class="logo-for-mobile-navigation"><img src="/images/logos/logo_01_white.svg" alt="website logo" class="logo-white"></li>
                         <!-- Link -->
                         {{-- <li><a href="index.html" class="nav-link">Layouts</a></li> --}}
-                        <li><a href="/" class="nav-link">Welcome</a></li>
-                        <li><a href="#about" class="nav-link">About</a></li>
-                        <li><a href="#prices" class="nav-link">Tickets</a></li>
-                        <li><a href="#vendor" class="nav-link">2023 Calendar</a></li>
-                        <li><a href="#models" class="nav-link">Editions</a></li>
+                        <li><a href="/" class="nav-link white">Welcome</a></li>
+                        <li><a href="#about" class="nav-link white">About</a></li>
+                        <li><a href="#prices" class="nav-link white">Tickets</a></li>
+                        <li><a href="#vendor" class="nav-link white">2023 Calendar</a></li>
+                        <li><a href="#models" class="nav-link white">Editions</a></li>
 
 
 
-{{--                        <li><a href="{{route('home1')}}" class="nav-link">Merchandise</a></li>--}}
+{{--                        <li><a href="{{route('home1')}}" class="nav-link ">Merchandise</a></li>--}}
 
 
                         {{--                        <li><a href="#events" class="nav-link">Line up</a></li>--}}
@@ -73,8 +73,8 @@
 {{--                        <li><a href="#player" class="nav-link">Listen Now</a></li>--}}
 
 
-                        {{--                        <li><a href="#albums" class="nav-link">Photo Albums</a></li>--}}
-                        <li><a href="#contactus" class="nav-link">Contact Us</a></li>
+                        {{--                        <li><a href="#albums" class="nav-link white"">Photo Albums</a></li>--}}
+                        <li><a href="#contactus" class="nav-link white"">Contact Us</a></li>
 
                         <!-- Extra Links -->
                         <li class="extra-links">
@@ -86,7 +86,7 @@
                 </div>
                 <!-- Mobile Nav Button -->
                 <div class="mobile-nb">
-                    <div class="hamburger-menu">
+                    <div class="hamburger-menu white"">
                         <div class="top-bun"></div>
                         <div class="meat"></div>
                         <div class="bottom-bun"></div>
